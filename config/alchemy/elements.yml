@@ -33,3 +33,11 @@
     type: EssencePicture
   - name: created_at
     type: EssenceDate
+- name: product
+  contents:
+  - name: spree_product
+    type: EssenceSpreeProduct
+- name: product_category
+  contents:
+  - name: spree_taxon
+    type: EssenceSpreeTaxon

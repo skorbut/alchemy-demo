@@ -8,3 +8,7 @@
   autogenerate: [article]
 - name: components_page
   elements: [header, component]
+- name: product
+  elements: [product]
+- name: products
+  elements: [product_category]
