@@ -1,0 +1,10 @@
+# == This file defines the page layouts for new pages.
+#
+# For further informations please see http://guides.alchemy-cms.com/create_page_layouts.html
+
+- name: index
+  unique: true
+  elements: [article]
+  autogenerate: [article]
+- name: components_page
+  elements: [header, component]
